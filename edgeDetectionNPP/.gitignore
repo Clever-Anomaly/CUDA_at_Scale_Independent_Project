@@ -1,0 +1,26 @@
+# Build outputs
+edgeDetectionNPP
+edgeDetectionNPP.exe
+*.o
+*.obj
+
+# Output images (except test image)
+*_edges_*.pgm
+*_edges_*.png
+*_edges_*.jpg
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
